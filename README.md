@@ -37,4 +37,4 @@ Tech Stack:
 
 
 
-Made with ❤️ by Anirudha Chaudhary
+Made with ❤️ by Gaurav Gupta
