@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 import { data } from "react-router-dom";
 import {io} from "socket.io-client"
 
-const BASE_URL= import.meta.env.MODE === "development" ? "https://sturdy-couscous-445967xppjg3766x-5001.app.github.dev/" : "/";
+const BASE_URL= import.meta.env.MODE === "development" ? "https://chat-app-c6pa.onrender.com" : "/";
 export const useAuthStore = create((set, get) => ({
     authUser:null,
     isSigningUp:false,
