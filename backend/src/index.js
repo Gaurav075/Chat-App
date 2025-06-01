@@ -28,7 +28,7 @@ const __dirname = path.resolve();
 app.use(express.json({limit:"10mb"}));
 app.use(cors({
     // origin:process.env.CLIENT_URL || "https://sturdy-couscous-445967xppjg3766x-5173.app.github.dev/",
-    origin:"https://sturdy-couscous-445967xppjg3766x-5173.app.github.dev/",
+    origin:"https://sturdy-couscous-445967xppjg3766x-5173.app.github.dev",
     credentials:true,
 }))
 app.use(cookieParser());
